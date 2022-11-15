@@ -5,9 +5,9 @@ secret_key ="__SECRETKEY__"
 }
 
 resource "aws_instance" "ec2instance" {
-ami           = "ami-05far56849922"
+ami           = "ami-05fa00d4c63e32376"
 instance_type ="t2.micro"
-subnet_id = "subnet-065785"
+subnet_id = "subnet-01789892a7cc20dc0"
 key_name  = "KeYavuz"
 tags = {
 Name = "SERVER"
